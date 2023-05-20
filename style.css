@@ -28,12 +28,14 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+/*Muda a cor quando o cursor estiver em cima*/
+nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
 
-nav a:active{
+/*Muda a cor quando se clica*/
+nav a:active {
     color: #088C19;
 }
 
@@ -55,15 +57,17 @@ nav a:active{
     border-radius: 10px;
 }
 
-.produtos li:hover{
+/*Muda a cor quando o cursor estiver em cima*/
+.produtos li:hover {
     border-color: #C78C19;
 }
 
-.produtos li:active{
+/*Muda a cor quando se clica*/
+.produtos li:active {
     border-color: #088C19;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
     font-size: 35px;
 }
 
@@ -82,36 +86,36 @@ nav a:active{
     margin-top: 10px;
 }
 
-footer{
+footer {
     text-align: center;
-    background:url("C:\pagina_web\img\bg.jpg");
+    background: url("C:\pagina_web\img\bg.jpg");
     padding: 40px 0;
     background-color: #000000;
     padding: 40px 0;
 }
 
-.copyrigth{
+.copyrigth {
     color: #FFFFFF;
     font-size: 13px;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
 }
 
-main{
+main {
     width: 940px;
     margin: 0 auto;
 }
 
-form{
+form {
     margin: 40px 0;
 }
 
-form label{
+form label {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input{
+form input {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
