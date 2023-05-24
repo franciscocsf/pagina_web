@@ -168,6 +168,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .principal p {
@@ -180,6 +181,12 @@ td, th {
 
 .principal em {
     font-style: italic;
+}
+
+.img-utensilios {
+    width: 120px;
+    float: left; /*Faz a img ficar ao lado dos paragrafos*/
+    margin: 0 20px 20px 0;
 }
 
 .img-beneficios {
