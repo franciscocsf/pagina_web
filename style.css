@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -168,7 +172,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
+    clear: left; /*Impede que o conteudo se desloque na utilização do float*/
 }
 
 .principal p {
@@ -185,7 +189,7 @@ td, th {
 
 .img-utensilios {
     width: 120px;
-    float: left; /*Faz a img ficar ao lado dos paragrafos*/
+    float: left; /*Descola o elemento na lateral e deixar os outros elementos ao redor*/
     margin: 0 20px 20px 0;
 }
 
