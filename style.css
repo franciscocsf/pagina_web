@@ -238,6 +238,10 @@ td, th {
     font-weight: bold; /*Transforma o primeiro item para negrito*/
 }
 
+.itens:before {
+    content: "🟊";
+}
+
 .img-beneficios {
     width: 60%;
 }
